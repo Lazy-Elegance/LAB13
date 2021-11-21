@@ -1,0 +1,26 @@
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "documents": [
+        {"name": "Shivangi Singh",
+        "reg": "201900388",
+        "marks": 100
+        },{"name": "Vaasavi Pasupulati",
+        "reg": "201900368",
+        "marks": 31
+        },
+        {"name": "Ebbani Thappa",
+        "reg": "201900105",
+        "marks": 46
+        },
+        {"name": "Pranjal Kumar",
+        "reg": "201900312",
+        "marks": 39
+        },
+        {"name": "Rachita Pradhan",
+        "reg": "201900030",
+        "marks": 40
+        }
+    ]
+}
